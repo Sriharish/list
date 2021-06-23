@@ -1,5 +1,7 @@
 package list
 
+import "fmt"
+
 type Node struct {
 	data int
 	next *Node
